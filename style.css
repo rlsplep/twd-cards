@@ -11,6 +11,7 @@ img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) ;
     display: block;
     margin: 0 auto 20px auto;
+    position: relative;
 }
 
 h1 {
@@ -59,5 +60,28 @@ a:hover {
     margin-top: 10px;
 }
 
+.slider-wrapper{
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+.right-arrow, .left-arrow {
+ 
+    position: absolute;
+    width: 50px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left-arrow{
+    left: 10px;
+}
+
+.right-arrow{
+    right: 10px;
+}
 
 
