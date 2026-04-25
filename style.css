@@ -23,7 +23,6 @@ h1 {
 a {
     color: rgb(255, 255, 255);
     display: inline-block;
-    background-color: rgb(50, 82, 82);
     padding: 5px 15px;
     border-radius: 5px;
     
@@ -42,6 +41,7 @@ a:hover {
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
 }
 
 .text {
@@ -54,10 +54,11 @@ a:hover {
     text-align: justify;
     margin: 20px 0;
     font-weight: bold;
-    border: 3px solid rgb(170, 170, 170);
+    border: 2px solid rgba(170, 170, 170, 0.5);
     padding: 15px;
     border-radius: 10px;
     margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .slider-wrapper{
