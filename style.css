@@ -1,17 +1,25 @@
 body {
-    background-color: darkslategrey;
+    background-image: url("images/celmentine-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     text-align: center;
     color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
 }
 
-img {
+.clem-img {
     width: 300px;
+    height: 300px;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) ;
     display: block;
     margin: 0 auto 20px auto;
     position: relative;
+    object-fit: cover;
+    object-position: center;
 }
 
 h1 {
@@ -25,6 +33,7 @@ a {
     display: inline-block;
     padding: 5px 15px;
     border-radius: 5px;
+    background-color: rgba(34, 29, 20, 0.3)
     
 }
 
@@ -35,7 +44,7 @@ a:hover {
 }
 
 .card{
-    background-color: rgb(59, 99, 99);
+    background-color: rgba(65, 44, 30, 0.8);
     margin: auto;
     width: 800px;
     padding: 20px;
@@ -54,11 +63,11 @@ a:hover {
     text-align: justify;
     margin: 20px 0;
     font-weight: bold;
-    border: 2px solid rgba(170, 170, 170, 0.5);
+    border: 2px solid rgba(34, 34, 34, 0.5);
     padding: 15px;
     border-radius: 10px;
     margin-top: 10px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(34, 24, 17, 0.5);
 }
 
 .slider-wrapper{
@@ -68,7 +77,6 @@ a:hover {
 }
 
 .right-arrow, .left-arrow {
- 
     position: absolute;
     width: 50px;
     top: 40%;
@@ -76,6 +84,10 @@ a:hover {
     cursor: pointer;
     z-index: 10;
     transition: transform 0.2s ease, opacity 0.2s ease;
+    filter: invert(1);
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
 
 .left-arrow{
@@ -85,6 +97,7 @@ a:hover {
 .left-arrow:hover {
     opacity: 0.8;
     transform: translateY(-50%) scale(1.2);
+    filter: invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
 .right-arrow{
@@ -95,6 +108,10 @@ a:hover {
 .right-arrow:hover {
     opacity: 0.8;
     transform: translateY(-50%) scale(1.2);
+    filter: invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
 
+h3{
+    text-align: center;
+}

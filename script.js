@@ -1,8 +1,8 @@
 const characters = ["Клементина", "Ли", "Кенни"]
 const images = [
-    "https://upload.wikimedia.org/wikipedia/ru/thumb/f/fc/%D0%9A%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0_The_walking_dead_the_final_season.jpg/330px-%D0%9A%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0_The_walking_dead_the_final_season.jpg",
-    "https://upload.wikimedia.org/wikipedia/ru/0/0e/%D0%9B%D0%B8_%D0%AD%D0%B2%D0%B5%D1%80%D0%B5%D1%82%D1%82.jpg",
-    "https://i.pinimg.com/736x/9b/93/4b/9b934b82a46ddaf53da34c0f5e594930.jpg"
+    "https://i.pinimg.com/736x/b2/2e/7a/b22e7a0b6783fbb35c9c71405ec3d076.jpg",
+    "https://i.pinimg.com/736x/6a/e5/12/6ae512dc4110f9d066fbf9892d92bb17.jpg",
+    "https://i.pinimg.com/1200x/4d/41/de/4d41dee2b905ca2d9222e89a9a3320a2.jpg"
 ];
 
 let currentIndex = 0;
@@ -37,11 +37,3 @@ prevBtn.addEventListener("click", function () {
 });   
 
 
-
-
-
-
-
-
-
-    
