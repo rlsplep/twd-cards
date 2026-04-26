@@ -7,7 +7,7 @@ body {
     text-align: center;
     color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.5s;
+    transition: background-image 0.8s ease-in-out; 
 }
 
 .clem-img {
